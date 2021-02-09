@@ -1,30 +1,35 @@
-document.querySelector('#press').addEventListener('click', fizzBuzz)
+document.querySelector('#press').addEventListener('click', run)
 
 
 let output = "";
 
 
-function fizzBuzz() {
+function run() {
 
-    let inputNum = Number(document.querySelector('#yourNum').value)
+    for(let i=0;i<100;)console.log((++i%3?'':'fizz')+(i%5?'':'buzz')||i)}
+ /*   let inputNum = Number(document.querySelector('#yourNum').value)
 
     for (let i = 0; inputNum < i; i++) {
 
 
-        if (inputNum % 3 == 0) { output = +"Fizz" }
-        if (inputNum % 3 == 0) { output = +"Buzz" }
-        if (output == "") { output = i }
+        if (inputNum % 3 == 0) {
+            output = output + "Fizz" };
+        if (inputNum % 5     == 0) {
+             output = output + "Buzz" };
+        if (output == "") {
+            output = i };
 
-    }
-
-document.querySelector('#zebra').innerText = `${output}`
+        }
+document.querySelector('#zebra').innerText = `${output}`;
 }
-// for (let i = 1; i <= 100; i++) {
+ for (let i = 1; i <= 100; i++) {
 
-    // let meho = "";
+     let meho = "";
 
-    // if (i % 3 == 0) { meho += "Fizz";}    
-    // if (i % 5 == 0) { meho += "Buzz";}    
-    // if (i == "") { meho = i;}
+     if (i % 3 == 0) { meho += "Fizz";}    
+     if (i % 5 == 0) { meho += "Buzz";}    
+     if (i == "") { meho = i;}
 
-    // console.log(i);
+     console.log(i);
+
+*/
