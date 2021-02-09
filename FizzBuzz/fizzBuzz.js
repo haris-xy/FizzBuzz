@@ -1,7 +1,7 @@
 document.querySelector('#press').addEventListener('click', run)
 
 
-let output = "";
+let output = "Still testing";
 
 
 function run() {
@@ -33,3 +33,4 @@ document.querySelector('#zebra').innerText = `${output}`;
      console.log(i);
 
 */
+console.log(output);
