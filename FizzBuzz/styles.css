@@ -1,0 +1,20 @@
+html{
+    background: #1351E4;
+    background: -webkit-radial-gradient(left, #1351E4, #D5EDB9);
+    background: -moz-radial-gradient(left, #1351E4, #D5EDB9);
+    background: radial-gradient(to right, #1351E4, #D5EDB9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}
+
+#inputTxt{
+    margin:15vw auto 2vw;
+    
+}
+
+#yourNum{
+    margin: auto;
+    margin-left: -20px;
+}
