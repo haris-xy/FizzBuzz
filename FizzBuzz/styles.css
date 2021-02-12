@@ -18,3 +18,17 @@ html{
     margin: auto;
     margin-left: -20px;
 }
+
+#zebra{
+    margin: auto 15px ;
+    display: flex;
+    font-size: large;
+}
+
+#boxForZebra{
+    border: 5px solid rgba(0, 255, 157, 0.527);
+    background-color: rgba(243, 120, 120, 0.473);
+    border-radius: 2%;
+    width: 100px;
+    min-height: 200px;
+}

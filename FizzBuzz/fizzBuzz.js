@@ -1,26 +1,26 @@
 document.querySelector('#press').addEventListener('click', run)
 
 
-let output = "";
+let output;
 
 function run() {
     let inputNum = Number(document.querySelector('#yourNum').value)
-    if (inputNum < 10000) { inputNum = 1}
+    if (inputNum > 10000) { inputNum = 1 }
     for( let i=1; i<= inputNum; i++){
 
         if (i % 15 == 0) {
-            output = " FizzBuzz "}
+            output = "\nFizzBuzz"}
             
         else if (i % 3 == 0) {
-             output = " Fizz " }
+             output = "\nFizz " }
 
         else if (i % 5 == 0) {
-            output = " Buzz " }
+            output = "\nBuzz " }
 
-        else (output = i);
+        else (output = "\n"+i);
         
-        23
-document.querySelector('#zebra').innerText += ` ${output} `;
+        
+document.querySelector('#zebra').innerText += ` ${output}`;
 
 console.log(output);
         }
